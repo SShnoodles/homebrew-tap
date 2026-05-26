@@ -1,25 +1,25 @@
 class Pulse < Formula
   desc "Modern IoT TUI monitor"
   homepage "https://github.com/SShnoodles/Pulse-TUI"
-  version "0.1.4"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/SShnoodles/Pulse-TUI/releases/download/v0.1.4/pulse-aarch64-apple-darwin.tar.xz"
-      sha256 "7450b6001e8e59af0dcf72545a44eb877fd004111f00fa77402e0c143569359f"
+      url "https://github.com/SShnoodles/Pulse-TUI/releases/download/v0.2.1/pulse-aarch64-apple-darwin.tar.xz"
+      sha256 "44586fa3bee7a58a6f370c4181c88c9eedd547ef7c7983d8b8dbd9ad3f8d217b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SShnoodles/Pulse-TUI/releases/download/v0.1.4/pulse-x86_64-apple-darwin.tar.xz"
-      sha256 "d6aa86f59ed8ef3cbf9cdc0fd51d16214a2df90d51900181bace84eb1f88ef49"
+      url "https://github.com/SShnoodles/Pulse-TUI/releases/download/v0.2.1/pulse-x86_64-apple-darwin.tar.xz"
+      sha256 "4cc76b9bd7f17a461661b45d30ba8bec39fd433e07e7eeaf3fe81970f7993627"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/SShnoodles/Pulse-TUI/releases/download/v0.1.4/pulse-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0e7f7ae0cef6aaffb1432b85ab03e56b714c59d1cbd672b9808477d6f8055b68"
+      url "https://github.com/SShnoodles/Pulse-TUI/releases/download/v0.2.1/pulse-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "272c2d465879c96facd8109015a002c3df2d5dae3d1b4cffeb8cdc2cd98f3ce1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SShnoodles/Pulse-TUI/releases/download/v0.1.4/pulse-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2051124f51429a93ede23108aede327e4f8781d7ad86f531b4d2703c1cf00344"
+      url "https://github.com/SShnoodles/Pulse-TUI/releases/download/v0.2.1/pulse-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b3d6bc6f27862b38f3a070b563e837c7b3fcfecf44d5ed39e9474e8195974c70"
     end
   end
   license "MIT"
